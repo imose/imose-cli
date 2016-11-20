@@ -1,20 +1,28 @@
 {
   "name": "imose-cli",
+  "preferGlobal": "true",
   "version": "0.0.1",
-  "description": "",
+  "description": "Imouse command line interface tool",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "imose": "./bin/imose"
+  },
+  "engines": {
+    "node": ">=4.0.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imose/imose-cli.git"
   },
   "keywords": [
+    "imose",
     "js",
     "web"
   ],
-  "author": "AlexZhang",
+  "author": "Alex Zhang",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/imose/imose-cli/issues"
